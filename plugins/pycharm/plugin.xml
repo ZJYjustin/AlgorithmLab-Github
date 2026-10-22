@@ -1,0 +1,18 @@
+<idea-plugin>
+  <id>local.algorithm.lab</id><name>Algorithm Lab Local</name><version>0.2.0</version>
+  <vendor>Local Learning Project</vendor>
+  <description><![CDATA[本地代码可视化。Python 逐行变量回看，以及 Python/C/C++ 数组与日志动画。通过 Tools → Algorithm Lab 启用、停用或运行。播放窗口在浏览器中打开；执行记录完成后回放。]]></description>
+  <idea-version since-build="252" until-build="252.*"/>
+  <depends>com.intellij.modules.platform</depends>
+  <change-notes><![CDATA[修复 PyCharm 插件类加载器不提供 CodeSource 路径时启动失败的问题；确保代码使用菜单中选择的 Python 解释器执行。]]></change-notes>
+  <actions>
+    <group id="AlgorithmLab.Menu" text="Algorithm Lab" popup="true">
+      <add-to-group group-id="ToolsMenu" anchor="last"/>
+      <action id="AlgorithmLab.Enable" class="lab.AlgorithmAction$Enable" text="启用可视化入口"/>
+      <separator/>
+      <action id="AlgorithmLab.Run" class="lab.AlgorithmAction" text="可视化当前文件"/>
+      <action id="AlgorithmLab.Lines" class="lab.AlgorithmAction$Lines" text="Python 逐行模式"/>
+      <action id="AlgorithmLab.Configure" class="lab.AlgorithmAction$Configure" text="设置 Python 解释器…"/>
+    </group>
+  </actions>
+</idea-plugin>
