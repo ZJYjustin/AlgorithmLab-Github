@@ -1,5 +1,6 @@
 {
   "version": "0.2.1",
+  "revision": "public-documentation",
   "prepared": "2026-10-23",
   "ai_assisted": true,
   "files": {
@@ -7,15 +8,14 @@
     ".gitignore": "296ac6871366fbf0bc306839fd000f7737c5d8678dc56842a123f51bf28e62e5",
     "algorithm_lab.py": "b42aeffca1576215c31f084fcf8b24585219842794c88cf13a78cd33f29b41e5",
     "build_plugins.py": "927db698761e03f0df5ba9bfb556f6f5a22d9b0f7fd88e12f42d9c1861852982",
-    "CHANGELOG.md": "62d669699568f8debba289408bc7e1867f370ddfe0db4e5de80e18b24cb4d4b9",
-    "CONTRIBUTING.md": "3d415c0431a9556e3722b6c393b31689ae398127399fce23317a53d5946cf737",
-    "docs/AlgorithmLab学习手册.md": "784e36fa2b480faab3ca39af10016dc4af4f535c8d3dc43522d1161c3c14a3d8",
-    "docs/AlgorithmLab学习手册.pdf": "e7d76d1fd1652876f70cbd0abb78833767ad4490ed04d3b0a59293b4e5bc51b7",
+    "CHANGELOG.md": "b2f9d3d76a92b5fdbc8c22f5cd2168bbfe12b25b79b86e54b9e1db6a61746fba",
+    "CONTRIBUTING.md": "a8bfd81a24aece908822bce2fde47be20f5e2d715806ee247b32fc550fc74f5d",
+    "docs/ARCHITECTURE.md": "a8fc555424bb4ff410f408397d847d82a33dd97147ddf6cc3185638914263ba0",
+    "docs/BUILDING.md": "1481283aa9ce5032bfada7a39e5ad4feab2b57c99c4675e5aea7bb1ed2ca09bc",
     "docs/demo-banker.html": "8f267fbfae98f12e7c1d18b00a9328712a9ad250aa444b7dd7d8e64a90bd8d07",
-    "docs/MIGRATION.md": "de44e9901e78467bdc9176d494c3cf32faa7a332f37645478dc230e8e4cf9938",
-    "docs/PUBLISHING.md": "5200ad17654266eeae2e27913c674950965251b78ea7d08a041a2de4253cc2ae",
-    "docs/VERIFICATION.md": "a95a68dadbcca4d6e41df5c1e9a87df030f0a490268db7ffc67eb471e97c0204",
-    "docs/VSIX_INSTALL_FIX.md": "8fe0520233a624d30efcb44877d0b5a0c96e627a31473cfd4118e467d58912bf",
+    "docs/MIGRATION.md": "d5ba559a4d0fa3b153d78dfa7c74b431a2b6eb66814135f9fb0b30bb2891b99f",
+    "docs/TESTING.md": "a4f7a6a1410770e3b5d5cf22e903d30eef52ea614a8942ca71f71ef7c212e888",
+    "docs/USAGE.md": "edf64d1533dbf5883a63f49914334c438e1fdf424b2a63b299f7465b309c18b1",
     "examples/banker.c": "14cb704e4290c2a7d8d130ef950f9a8282035aec48ab4a5d5526bc52b59f33f6",
     "examples/banker.cpp": "198269e1e05b12f0efbb30b8d706bbe98393e2b3128d023d70fa6bfb6aff8d67",
     "examples/banker.py": "6cf30a02ce2f6a447e2d9aaee5a18eae561e53ac4910adcacbebc4d4ac67e69d",
@@ -30,17 +30,11 @@
     "plugins/visual-studio/AlgorithmMargin.cs": "21e9439432636c7a89f6ad7335fc364fc666a7afa9a8989f2f72c38e66a5842c",
     "plugins/visual-studio/extension.vsixmanifest": "2edfddb35d595cf75b16986e0e152e1dcbaa5be74562166827e09290d67ebd00",
     "protocol.py": "f0dadc0a8712464a24178dab55b0a4208327b1c6c5abe2bab27c095aed9baa3a",
-    "README.md": "dbb890bc303362f3c91df9777930bbff8834a0e9c4cc86dcae91f1a54d977cef",
+    "README.md": "2dc0979d4bef769412a7d0077b368ddff89d07c7d882d1ec913f8dfd95520056",
     "tests/test_runtime.py": "1720cda4644dc5fb2ed879523861308c60578cc698aaaa92ee642f1ed5805fd6",
     "tests/test_vsix_packaging.py": "10db5292d9af376b0fb2ed7055629b4edd9f86f6650e28a9a14bcb507d88ace8",
-    "THIRD_PARTY.md": "00c87a67fe4e8f7a68d272cf07e0e8eab30d2a9a82b88de1aecb7a05e4133f15",
+    "THIRD_PARTY.md": "c9bb4031f2bdf4b17afada0209033f913b34c708783915aaacb34f0e90306335",
     "viewer.html": "34827638dfc7fd7bd59978e5f4e61445c595673148833848639dd42f955e4831",
     "worker.py": "7a4afb5697096962d853490a0162bdd27ccd0096a4ad5112afcff013ce36991b"
-  },
-  "excluded": [
-    "old upstream tracers",
-    "SDK binaries",
-    "old installers",
-    "local reports and personal paths"
-  ]
+  }
 }
